@@ -1,45 +1,38 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<style>
-			table, th, td {
-				border: 1px solid black;
-			}
-		</style>
-	</head>
+
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <!-- Include roboto.css to use the Roboto web font, material.css to include the theme and ripples.css to style the ripple effect -->
+        <link href="css/roboto.min.css" rel="stylesheet">
+        <link href="css/material.min.css" rel="stylesheet">
+        <link href="css/ripples.min.css" rel="stylesheet">
+
+    </head>
 	<body>
 
-		<table id="" name="mytable" data-search-type="">
-			<tr>
-				<th>Month</th>
-				<th>Savings</th>
-			</tr>
-			<tr>
-				<td>January</td>
-				<td>$100</td>
-			</tr>
-			<tr>
-				<td>February</td>
-				<td>$80</td>
-			</tr>
-		</table>
+		<p class="bs-component">
+            <a href="javascript:void(0)" class="btn btn-default">Default</a>
+            <a href="javascript:void(0)" class="btn btn-primary">Primary</a>
+            <a href="javascript:void(0)" class="btn btn-success">Success</a>
+            <a href="javascript:void(0)" class="btn btn-info">Info</a>
+            <a href="javascript:void(0)" class="btn btn-warning">Warning</a>
+            <a href="javascript:void(0)" class="btn btn-danger">Danger</a>
+            <a href="javascript:void(0)" class="btn btn-link">Link</a>
+        </p>
 
-		<table id="table_id" name="mytable2" data-search-type="2">
-			<tr>
-				<th>Month</th>
-				<th>Savings</th>
-			</tr>
-			<tr>
-				<td>January</td>
-				<td>$100</td>
-			</tr>
-			<tr>
-				<td>February</td>
-				<td>$80</td>
-			</tr>
-		</table>
+		<script src="js/jquery-1.10.2.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
 
-
+        <script src="js/ripples.min.js"></script>
+        <script src="js/material.min.js"></script>
+        <script>
+            $(document).ready(function() {
+                // This command is used to initialize some elements and make them work properly
+                $.material.init();
+            });
+        </script>
+		
 	</body>
 </html>
 
