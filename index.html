@@ -19,6 +19,14 @@
 		<link href="css/roboto.min.css" rel="stylesheet">
 		<link href="css/material.min.css" rel="stylesheet">
 		<link href="css/ripples.min.css" rel="stylesheet">
+
+		<!-- Page style -->
+    	<style>
+    		.jumbotron .btn {
+    			padding: 0px 0px;
+    			margin: 0px 10px 0px 0px;
+    		}
+    	</style>
 		
     </head>
 	<body>
@@ -26,7 +34,17 @@
 		<!-- Static navbar -->
 		<nav class="navbar navbar-default navbar-static-top">
 			<div class="container">
-				<div id="navbar" class="navbar-collapse collapse">
+				<div class="navbar-header">
+			      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+			        <span class="sr-only">Toggle navigation</span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+			      </button>
+			      <a class="navbar-brand" href="#">Life is short, you need Python!</a>
+			    </div>
+
+				<div class="navbar-collapse collapse">
 					<ul class="nav navbar-nav navbar-right">
 						<li><a href="https://github.com/liyucun"><i class="fa fa-github fa-2x"></i></a></li>
 						<li><a href="https://twitter.com/yucun_li"><i class="fa fa-twitter fa-2x"></i></a></li>
@@ -39,81 +57,104 @@
 		</nav>
 
 		<div class="container">
-		
+			
 			<div class="jumbotron">
-				<h2>Ongoing Project</h2>
+				<h2><b>Projects</b></h2>
 				<div class="list-group">
-
 					<div class="list-group-item">
-						<h3 class="text-muted"><a href="https://github.com/liyucun/ShuttleBus"><b>Concordia Shuttle Bus</b></a></h3>
-						
 						<div class="row-content">
-							<div class="row">
-								<div class="col-md-6 col-md-12">
-									<img src="image/shuttle_bus_main.png" class="img-responsive center-block" alt="" style="height: 50%; width: 50%">
-								</div>
-								<div class="col-md-6 col-md-12">
-									<img src="image/shuttle_bus_info.png" class="img-responsive center-block" alt="" style="height: 50%; width: 50%">
-								</div>
-							</div>
-
 							<div class="row text-muted">
-								<div class="col-md-12">
-									<p style="font-size: 16px">Concordia Shuttle Bus is a simple moblie application for providing Concordia shuttle bus schedule. Android and iOS version development have been started. If you wanna join this project, please don't hesitate to contact me. Android or iOS development experience is required.</p>
-
-									<h5>Tech-Stack Highlight:</h5>
-
-									<p style="font-size: 16px">Function Reactive Programming(RxJava, RxAndroid), Cloud(Parse)</p>
-
-								</div>
+								<h4><a class="btn btn-primary btn-flat" href="https://github.com/liyucun/ShuttleBus">Concordia Shuttle Bus</a></h4>
+								<p style="font-size: 16px">Concordia Shuttle Bus is a simple mobile application for providing Concordia shuttle bus schedule. Android and iOS version have already been built, and there is a web app for managing bus schedule. <ins>Google Analytics</ins>, <ins>Fabric Crashlytics</ins>, <ins>Google Ads</ins> also have been integrated. The app is using <ins>Parse</ins> as cloud backend, and trying to build architecture on <ins>RxJava</ins>.</p>
 							</div>
 						</div>
 					</div>
+
+					<div class="list-group-item">
+						<div class="row-content">
+							<div class="row text-muted">
+								<h4><a class="btn btn-primary btn-flat" href="http://mtl-news.github.io/">MTL-News Tech Media</a></h4>
+								<p style="font-size: 16px">MTL-News is a chinese online blog for technology industry news, mainly provide short reviews for high-quality tech articles over the world. By now, the blog has had hundreds users.</p>
+								<p style="font-size: 16px"><small>I am currently running the blog with my partner Kevin and Jessica, and we are still looking for partners to help out.</small></p>
+							</div>
+						</div>
+					</div>
+
+					<div class="list-group-item">
+						<div class="row-content">
+							<div class="row text-muted">
+								<h4><a class="btn btn-primary btn-flat" herf="">ViewSpot</a></h4>
+								<p style="font-size: 16px"></p>
+							</div>
+						</div>
+					</div>
+
+					<div class="list-group-item">
+						<div class="row-content">
+							<div class="row text-muted">
+								<h4><a class="btn btn-primary btn-flat" herf="">CorporateStays</a></h4>
+								<p style="font-size: 16px"></p>
+							</div>
+						</div>
+					</div>
+
+					<div class="list-group-item">
+						<div class="row-content">
+							<div class="row text-muted">
+								<h4><a class="btn btn-primary btn-flat" herf="">GraffMap</a></h4>
+								<p style="font-size: 16px"></p>
+							</div>
+						</div>
+					</div>
+
+					<div class="list-group-item">
+						<div class="row-content">
+							<div class="row text-muted">
+								<h4><a class="btn btn-primary btn-flat" herf="">AirLiquid</a></h4>
+								<p style="font-size: 16px"></p>
+							</div>
+						</div>
+					</div>
+
+					<div class="list-group-item">
+						<div class="row-content">
+							<div class="row text-muted">
+								<h4><a class="btn btn-primary btn-flat" herf="">Poutinr</a></h4>
+								<p style="font-size: 16px"></p>
+							</div>
+						</div>
+					</div>
+
+					<div class="list-group-item">
+						<div class="row-content">
+							<div class="row text-muted">
+								<h4><a class="btn btn-primary btn-flat" herf="">XSight</a></h4>
+								<p style="font-size: 16px"></p>
+							</div>
+						</div>
+					</div>
+
 				</div>
 			</div>
 			
 			<div class="jumbotron">
-				<h2>Project</h2>
-				<h6>CorporateStays, APPI, ViewSpot</h6>
+				<h2><b>Industry Experience</b></h2>
 				<div class="list-group">
 					<div class="list-group-item">
 						<div class="row-content">
 							<div class="row text-muted">
-								<h4><a herf="https://play.google.com/store/apps/details?id=guranatechnologies.corporatestays&hl=en">CorporateStays</a></h4>
-								<p style="font-size: 16px">Based on CorporateStays' webservice, this android app provides user a way to explore CorporateStays's high-end service. </p>
-							</div>
-						</div>
-					</div>
-					
-					<div class="list-group-item">
-						<div class="row-content">
-							<div class="row text-muted">
-								<h4><a herf="">Air Liquid</a> <small>-- Internal App</small></h4>
-								<p style="font-size: 16px">Based on Parse cloud platform, this android app provides sales team member a way to check Air Liquid's market details . </p>
-							</div>
-						</div>
-					</div>
-					
-					<div class="list-group-item">
-						<div class="row-content">
-							<div class="row text-muted">
-								<h4><a herf="">ViewSpot</a> <small>-- Coming soon</small></h4>
-								<p style="font-size: 16px">Based on Parse cloud platform, this android app provides user a way to upload their favourite place's photo and share to other people around the world. </p>
-							</div>
-						</div>
-					</div>
-					
-				</div>
-			</div>
-			
-			<div class="jumbotron">
-				<h2>Work Experience</h2>
-				<div class="list-group">
-					<div class="list-group-item">
-						<div class="row-content">
-							<div class="row text-muted">
-								<h4>MIT Media Lab <small>-- App Inventor Team</small></h4>
-								<p style="font-size: 16px">Working on App Inventor Project and Punya Project, which are a platform for building apps for Android phones and tablets. This is part of Google Summer Code program.</p>
+								<h5>
+									<button class="btn btn-default btn-flat">Student Developer
+									</button>
+
+									<a class="btn btn-primary btn-flat" href="http://www.google-melange.com/gsoc/project/details/google/gsoc2015/liyucun/5668600916475904">Google Summer Code - MIT App Inventor
+									</a>
+
+									<small>Summer 2015</small>
+								</h5>
+
+								<p style="font-size: 16px">Developed a Menu Options component based on Android SDK, and fixed other issues related to other components, including: spinner component, horizontal/vertical arrangement and some other small issues.
+								</p>
 							</div>
 						</div>
 					</div>
@@ -123,8 +164,17 @@
 					<div class="list-group-item">
 						<div class="row-content">
 							<div class="row text-muted">
-								<h4>Hitachi ID Systems, Inc. <small>-- Dev Team</small></h4>
-								<p style="font-size: 16px">Working on Rails application's automation test tool, which is based on Watir open source project.</p>
+								<h5>
+									<button class="btn btn-default btn-flat">Software Engineering Intern
+									</button>
+
+									<a class="btn btn-primary btn-flat" href="http://hitachi-id.com/">Hitachi ID Systems, Inc.
+									</a>
+
+									<small>Summer 2015</small>
+								</h5>
+
+								<p style="font-size: 16px">Implemented some parts of automation test tool for identity management system based on <a href="http://watir.com/">Watir</a>, and developed new automated test scripts for several search engines </p>
 							</div>
 						</div>
 					</div>
@@ -134,8 +184,38 @@
 					<div class="list-group-item">
 						<div class="row-content">
 							<div class="row text-muted">
-								<h4>Guarana Technologies <small>-- Android Developer</small></h4>
-								<p style="font-size: 16px">Developing and maintaining Android Apps</p>
+								<h5>
+									<button class="btn btn-default btn-flat">Research Assistant
+									</button>
+
+									<a class="btn btn-primary btn-flat" href="http://www.concordia.ca/">Concordia University
+									</a>
+
+									<small>2014.09 - 2015.04</small>
+								</h5>
+
+								<p style="font-size: 16px">Designed and implemented an automated web service testing tool, and built a J2EE web application for visualizing testing data</p>
+							</div>
+						</div>
+					</div>
+
+					<hr>
+
+					<div class="list-group-item">
+						<div class="row-content">
+							<div class="row text-muted">
+								<h5>
+									<button class="btn btn-default btn-flat">Android Developer
+									</button>
+
+									<a class="btn btn-primary btn-flat" href="http://guarana-technologies.com/">Guarana Technologies, Inc.
+									</a>
+
+									<small>2014.06 - 2015.04</small>
+								</h5>
+
+								<p style="font-size: 16px">Designed, built and maintained Android apps, including <a href="https://play.google.com/store/apps/details?id=com.guranatechnologies.poutinr&hl=en">Poutinr</a>, <a href="https://play.google.com/store/apps/details?id=guranatechnologies.corporatestays&hl=en">CorporateStays</a>, AirLiquid, <a href="https://play.google.com/store/apps/details?id=com.guarana.graffmap.app&hl=en">GraffMap</a>, <a href="https://play.google.com/store/apps/details?id=com.xsightdiscovery.xsight&hl=en">XSight</a>, ViewSpot</p>
+
 							</div>
 						</div>
 					</div>
@@ -148,13 +228,18 @@
 			</div>
 			
 			<div class="jumbotron">
-				<h2>Education</h2>
+				<h2><b>Education</b></h2>
 				<div class="list-group">
 					<div class="list-group-item">
 						<div class="row-content">
 							<div class="row text-muted">
-								<h4>Concordia University <small>2013-present</small></h4>
-								<h5>Master of Applied Computer Science</h5>
+								<h5>
+									<button class="btn btn-default btn-flat">Master of Applied Computer Science
+									</button>
+								</h5>
+								<a class="btn btn-primary btn-flat" href="http://www.concordia.ca/">Concordia University
+								</a><small>2014 - present</small>
+								
 								<h5><i class="fa fa-map-marker"></i>  Montreal, Canada</h5>
 							</div>
 						</div>
@@ -165,8 +250,30 @@
 					<div class="list-group-item">
 						<div class="row-content">
 							<div class="row text-muted">
-								<h4>Central South University <small>2009-2013</small></h4>
-								<h5>Bachelor of Geological Engineering</h5>
+								<h5>
+									<button class="btn btn-default btn-flat">Graduate Diploma in Computer Science
+									</button>
+								</h5>
+								<a class="btn btn-primary btn-flat" href="http://www.concordia.ca/">Concordia University
+								</a><small>2013 - 2015</small>
+								
+								<h5><i class="fa fa-map-marker"></i>  Montreal, Canada</h5>
+							</div>
+						</div>
+					</div>
+
+					<hr>
+
+					<div class="list-group-item">
+						<div class="row-content">
+							<div class="row text-muted">
+								<h5>
+									<button class="btn btn-default btn-flat">Bachelor of Geological Engineering
+									</button>
+								</h5>
+								<a class="btn btn-primary btn-flat" href="http://www.csu.edu.cn/">Central South University
+								</a><small>2009 - 2013</small>
+								
 								<h5><i class="fa fa-map-marker"></i>  Changsha, China</h5>
 							</div>
 						</div>
