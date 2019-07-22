@@ -1,0 +1,38 @@
+.TopBarContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 40px;
+  background-color: white;
+  box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28);
+}
+
+.TitleLink,
+.Wechat,
+.LinkedInLink {
+  font-size: 12px;
+  color: black;
+  text-decoration: none;
+  border-bottom: 1px solid white;
+}
+
+.TitleLink:hover,
+.Wechat:hover,
+.LinkedInLink:hover {
+  border-bottom: 1px solid black;
+}
+
+.TitleLink {
+  margin-left: 20px;
+}
+
+.Wechat {
+  margin-left: auto;
+}
+
+.LinkedInLink {
+  margin-left: 20px;
+  margin-right: 20px;
+}
