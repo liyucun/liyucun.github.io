@@ -25,7 +25,7 @@ function App() {
             <p>- React 高级进阶</p>
             <p>- Leetcode 算法课</p>
             <p>- System Design 实践课</p>
-            <p>皆为小班授课，满4人即开课...欢迎WeChat咨询我呀</p>
+            <p>欢迎WeChat咨询我相关课程</p>
           </div>
           <div className="ReadingList">
             <b>Books and Papers I've found very useful</b>
@@ -49,6 +49,11 @@ function App() {
               <li>
                 <a href="https://www.amazon.com/Effective-Java-Joshua-Bloch/dp/0134685997">
                   Effective Java
+                </a>
+              </li>
+              <li>
+                <a href="https://www.allthingsdistributed.com/files/p1041-verbitski.pdf">
+                Amazon Aurora: Design Considerations for High Throughput Cloud-Native Relational Databases
                 </a>
               </li>
             </ul>
